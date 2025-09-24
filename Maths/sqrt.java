@@ -17,6 +17,7 @@ public class sqrt {
         while (start <= end) {
             int mid = start + (end - start) / 2;
             if (mid * mid == num) {
+                root=mid;
                 return mid;
             } else if (mid * mid > num) {
                 end = mid - 1;
