@@ -21,7 +21,7 @@ public class arraylist {
         for (int i = 0; i < 5; i++) {
             list.add(in.nextInt());
         }
-        System.out.println("Print elements: ");
+        System.out.print("Print elements: ");
         for (int i = 0; i < 5; i++) {
             System.out.print(list.get(i) + " ");
         }
