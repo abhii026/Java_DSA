@@ -3,6 +3,7 @@ import java.util.Arrays;
 public class cyclicrevise {
     public static void main(String[] args) {
         int[] arr= {2,0,1};
+        // int[] arr={3,5,2,1,4};
         CyclicSort(arr);
         System.out.println("Sorted Array: "+ Arrays.toString(arr));
 

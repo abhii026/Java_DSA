@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Q1selection {
     static int swapCount = 0;
-    static int compCount = 0; 
+    static int compCount = 0;
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         // System.out.print("Enter the size of array: ");
