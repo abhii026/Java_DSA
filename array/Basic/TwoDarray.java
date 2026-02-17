@@ -8,13 +8,12 @@ public class TwoDarray {
             {1, 2, 3},
             {4, 5, 6}
         };
-        System.out.println("Before swaping: ");
-        for(int r = 0; r < arr.length; r++) {
+        System.out.println("---Before swaping---");
+        for (int r = 0; r < arr.length; r++) {
             System.out.println(Arrays.toString(arr[r]));
         }
         int row = arr.length;
         int col = arr[0].length;
-        System.out.print(row);
         int i = 0, left = 0;
         int right = col - 1;
         while (i < row && left < right) {
@@ -27,7 +26,7 @@ public class TwoDarray {
                 right = col - 1;
             }
         }
-        System.out.println("After swaping: ");
+        System.out.println("---After swaping---");
         for (int r = 0; r < arr.length; r++) {
             System.out.println(Arrays.toString(arr[r]));
         }
