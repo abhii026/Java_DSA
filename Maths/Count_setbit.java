@@ -1,6 +1,6 @@
 public class Count_setbit {
     public static void main(String[] args) {
-        int n=9;
+        int n=15;
         System.out.println(Integer.toBinaryString(n));
         // int count=0;
         // while(n>0){
